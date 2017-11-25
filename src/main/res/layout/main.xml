@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="64dp"
+    >
+    <TextView  
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Enter the coefficients a, b, and c of the quadratic in standard form.\nax^2+bx+c"
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        >
+        <EditText
+            android:id="@+id/a"
+            android:layout_height="wrap_content"
+            android:layout_width="64dp"
+            android:inputType="numberSigned"
+            android:hint="a"
+            />
+        <EditText
+            android:id="@+id/b"
+            android:layout_height="wrap_content"
+            android:layout_width="64dp"
+            android:inputType="numberSigned"
+            android:hint="b"
+            />
+        <EditText
+            android:id="@+id/c"
+            android:layout_height="wrap_content"
+            android:layout_width="64dp"
+            android:inputType="numberSigned"
+            android:hint="c"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/solve"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Solve"
+        />
+
+</LinearLayout>
