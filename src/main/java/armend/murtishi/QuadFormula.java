@@ -1,4 +1,4 @@
-package org.hello;
+package armend.murtishi;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.view.View;
 import android.widget.Toast;
 
-public class HelloActivity extends Activity {
+public class QuadFormula extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
